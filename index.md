@@ -1,3 +1,6 @@
+---
+title: AI-Descartes
+---
 
 # ~ MORE INFO COMING SOON! ~
 
