@@ -1,3 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-atlantic-theme
+baseurl: "/jekyll-atlantic-theme/"
 title: AI-Descartes
 description: A tool for Derivable Scientific Discovery
