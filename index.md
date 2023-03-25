@@ -8,7 +8,7 @@ title: AI-Descartes
 
 
 ## Data and Code
-Data and code can be found, freely available, at our GitHub repository [<img height="32" width="32" src="figures/github.svg" />](https://github.com/IBM/AI-Descartes) .
+Data and code can be found, freely available, at our GitHub repository &rarr; [<img height="32" width="32" src="figures/github.svg" />](https://github.com/IBM/AI-Descartes) .
 
 ## References
 
