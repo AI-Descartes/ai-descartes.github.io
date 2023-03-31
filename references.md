@@ -1,3 +1,7 @@
+---
+title: AI-Descartes
+---
+
 ## References
 
 Papers:
@@ -14,7 +18,7 @@ Patents:
 * [**Experimental Design for Symbolic Model Discovery**](https://patents.google.com/patent/US20210334432A1/en). L. Horesh, K. Clarkson, C. Cornelio, S. Magliacane, 2020
 
 
-## Talks
+## Talks & Videos
 
 * Invited talk at the [IBM Neuro-Symbolic AI Workshop](https://ibm.github.io/neuro-symbolic-ai/events/ns-workshop2023/) (2023)
   * Presentation recording: [Video](https://ibm.ent.box.com/file/1116765562104?s=57d95z19ecw7lr51jgfoc6q29nkeyxif)
