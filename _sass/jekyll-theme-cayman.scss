@@ -61,6 +61,11 @@ a {
   }
 }
 
+a.cri_title {
+  color: $header-heading-color;
+  text-decoration: none;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
