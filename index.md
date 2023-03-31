@@ -1,37 +1,71 @@
 ---
 title: AI-Descartes
 ---
+[<img align="right"height="30" width="30" src="figures/github.svg" />](https://github.com/IBM/AI-Descartes)
 
-# ~ MORE INFO COMING SOON! ~
+Scientists aim to create mathematical models that can accurately describe an observed phenomenon. There are two common approaches to creating these models: manually creating them based on domain knowledge and fitting them to the data, or using machine learning algorithms to automatically create models from large datasets. However, neither of these approaches is perfect. Finding models from numerical data that are meaningful (consistent with prior knowledge expressed via general logical axioms) is still an open problem. We have developed a method that combines logical reasoning with symbolic regression to enable principled extraction of models of natural phenomena from axiomatic knowledge and experimental data.
 
+<p align="center">
+<img src="figures/cycle.png"  width="400"/>
+</p>
+ 
+### AI-Descartes Method
+ 
+Our method combines a reasoning system with a novel symbolic regression (SR) algorithm based on mathematical optimization. SR models are typically more interpretable than neural network (NN) models and require less data. Our end-to-end discovery system extracts formulas from data via SR and then furnishes either a formal proof of derivability of the formula from a set of axioms, or a proof of inconsistency. We also provide novel measures that indicate how close a formula is to the derivable one, when the model is provably non-derivable.
+ 
+ <p align="center">
+<img src="figures/system.png"  width="400"/>
+</p>
+ 
+Thus, our method aims to discover an unknown symbolic model where the discovered model should fit a collection of data points, be derivable from (or close to) a background theory, have low complexity, and have bounded prediction error. The inputs to the system are 4-tuples that include background knowledge, data, a hypothesis class, and a set of modeler preferences (e.g. error bounds on accuracy). We demonstrated that the method can discover governing laws from a few data points, and that logical reasoning can be used to distinguish between candidate formulas with similar error on the data.
+
+<p align="center">
+<img src="figures/planets.png"  width="400"/>
+</p>
+ 
+We demonstrated these concepts for Kepler’s third law of planetary motion, Einstein’s relativistic time-dilation law, and Langmuir’s theory of adsorption.
+ 
+### Kepler's Third Law of Planetary Motion
+
+Kepler's third law relates the distance between two celestial bodies and their orbital periods. This law can be expressed as an equation that involves the period, distance, masses, and the gravitational constant. The law can be derived using axioms of a background theory that describes the center of mass, distance between bodies, gravitational force, centrifugal force, force balance, and the period definition. Our goal is to recover Kepler's third law from real measurements of pairs of masses, the distance between them, and their orbital period. The Symbolic Regression (SR) module was used to obtain a set of candidate formulas. The quality of these formulas was evaluated using three logic-based measures: pointwise reasoning error, generalization reasoning error, and variable dependence. The results show that AI-Descartes is able to re-discover the original law using the SR module and that it is able to identify the derivable original law in a set of candidates with similar numerical error. 
+
+<p align="center">
+<img src="figures/kepler.gif"  width="400"/>
+</p>
+
+### Relativistic Time Dilation
+
+Einstein's theory of relativity postulates that the speed of light is constant, and implies that two observers in relative motion to each other will experience time differently and observe different clock frequencies. This law can be expressed as an equation that involves the clocks’ frequency, their relative speed and the speed of light. This formula was recently confirmed experimentally using high precision atomic clocks. 
+ 
+We were able to generate a set of candidate expressions with the SR module, identifying the one that generalizes best. However, we did not recover this formula from data. 
+ 
+Our system can also help rule out alternative axiom sets, such as one that assumes light behaves like other mechanical objects (Newtonian), and the one that assumes the speed of light to be constant (relativistic). Thus the data is used indirectly to discriminate between axiom systems relevant to the phenomenon under study.
+
+<p align="center">
+<img src="figures/time.gif"  width="400"/>
+</p>
+
+### Langmuir's Adsorption Equation
+
+Langmuir’s equation relates the loading on a surface to the pressure of a gas that contacts the surface. This law can be expressed as an equation that involves the pressure, the loading and constants characterizing the maximum loading and the adsorption strength.
+ 
+We used two sets of experimental data to illustrate how the SR module can obtain the best fitting functions with two and four constants using the operators +, -, ×, and ÷ (where the constants depend on the material, gas, and temperature).
+ 
+We encoded the background theory in a set of axioms which includes the site balance, adsorption rate model, desorption rate model, equilibrium assumption, and mass balance on the loading. Langmuir's equation can be derived from these axioms (with some additional non-negativity constraints). We were able to prove one of the formulas by using existentially quantified variables to represent the constants derived from the data.
+
+<p align="center">
+<img src="figures/langmuir.gif"  width="400"/>
+</p>
+
+### Conclusions and Limitations
+
+One limitation of our system is the assumption of correctness and completeness of the background theory, which could in principle be solved by introducing abductive or probabilistic reasoning. However, the background theories used in our work were generated manually: acquiring axioms for machine-readable format for physics and other natural sciences is currently limited. Another limitation is the scaling behavior of automated theorem provers and symbolic regression tools, which have excessive computational complexity. Finally, our system could benefit from improvements in individual components and by introducing techniques such as experimental design. 
+ 
+In conclusion, in our work we combined logical reasoning with symbolic regression to enable principled derivations of models of natural phenomena from axiomatic knowledge and experimental data. Our method has potential applications in various fields of science, where it could aid in discovering meaningful formulas that accurately describe experimental data while also incorporating prior knowledge expressed as constraints.
 
 
 
 ## Data and Code
-Data and code can be found, freely available, at our GitHub repository &rarr; [<img height="30" width="30" src="figures/github.svg" />](https://github.com/IBM/AI-Descartes) .
-
-## References
-
-Papers:
-* [**Combining data and theory for derivable scientific discovery with AI-Descartes**](), C. Cornelio, S. Dash, V. Austel, T. Josephson, J. Goncalves, K. Clarkson, N. Megiddo, B. El Khadir, L. Horesh, arXiv:2109.01634, 2021 
-* [**AI-Descartes: Integration of Data and Theory for Accelerated Derivable Symbolic Discovery**](https://arxiv.org/abs/2109.01634), C. Cornelio, S. Dash, V. Austel, T. Josephson, J. Goncalves, K. Clarkson, N. Megiddo, B. El Khadir, L. Horesh, arXiv:2109.01634, 2021 
-* [**Bayesian Experimental Design for Symbolic Discovery**](https://arxiv.org/abs/2211.15860), K. L. Clarkson, C. Cornelio, S. Dash, J. Goncalves, L. Horesh, N. Megiddo, arXiv:2211.15860, 2022
-* [**Symbolic Regression using Mixed-Integer Nonlinear Optimization**](https://arxiv.org/abs/2006.06813), V. Austel, C. Cornelio, S. Dash, J. Goncalves, L. Horesh, T. Josephson, N. Megiddo, 2019, arXiv:2006.06813
-
-Patents:
-* **Logical and  Composite Models**, L. Horesh, B. El Kadir, S. Dash, K. Clarkson, C. Cornelio, 2023
-* **Symbolic Model Discovery Rectification**, L. Horesh, C. Cornelio, S. Dash, J.P. Goncalves, K. L. Clarkson, N. Megiddo, V. Austel, B. El Khadir, 2023
-* [**Symbolic Model Discovery based on a combination of Numerical Learning Methods and Reasoning**](https://patents.google.com/patent/US20220027775A1/en), C. Cornelio, L. Horesh, A. Fokoue-Nkoutche, S. Dash, 2020
-* [**Generative Reasoning for Symbolic Discovery**](https://patents.google.com/patent/US20220108205A1/en), C. Cornelio, L. Horesh, V. Pestun, R. Yan, 2020
-* [**Experimental Design for Symbolic Model Discovery**](https://patents.google.com/patent/US20210334432A1/en). L. Horesh, K. Clarkson, C. Cornelio, S. Magliacane, 2020
-
-
-## Talks
-
-* Invited talk at the [IBM Neuro-Symbolic AI Workshop](https://ibm.github.io/neuro-symbolic-ai/events/ns-workshop2023/) (2023)
-  * Presentation recording: [Video](https://ibm.ent.box.com/file/1116765562104?s=57d95z19ecw7lr51jgfoc6q29nkeyxif)
-* Invited talk at the [2nd Workshop on Nobel Turing Challenge](https://groups.oist.jp/obu/event/2nd-workshop-nobel-turing-challenge) (2022)
-  * More info on the Nobel Turing Challenge can be found [HERE](https://www.nature.com/articles/s41540-021-00189-3)
-  * Presentation recording: [YouTube video](https://youtu.be/y-v9QWGzZ8E)
+[<img height="30" width="30" src="figures/github.svg" />](https://github.com/IBM/AI-Descartes) Data and code can be found, freely available, at our GitHub repository.
 
 
