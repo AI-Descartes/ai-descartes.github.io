@@ -11,7 +11,7 @@ title: AI-Descartes
 Scientists aim to create mathematical models that can accurately describe an observed phenomenon. There are two common approaches to creating these models: manually creating them based on domain knowledge and fitting them to the data, or using machine learning algorithms to automatically create models from large datasets. However, neither of these approaches is perfect. Finding models from numerical data that are meaningful (consistent with prior knowledge expressed via general logical axioms) is still an open problem. We have developed a method that combines logical reasoning with symbolic regression to enable principled extraction of models of natural phenomena from axiomatic knowledge and experimental data.
 
 <p align="center">
-<img src="figures/cycle.png"  width="800"/>
+<img src="figures/cycle.png" />
 </p>
  
 ### AI-Descartes Method
@@ -19,7 +19,7 @@ Scientists aim to create mathematical models that can accurately describe an obs
 Our method combines a reasoning system with a novel symbolic regression (SR) algorithm based on mathematical optimization. SR models are typically more interpretable than neural network (NN) models and require less data. Our end-to-end discovery system extracts formulas from data via SR and then furnishes either a formal proof of derivability of the formula from a set of axioms, or a proof of inconsistency. We also provide novel measures that indicate how close a formula is to the derivable one, when the model is provably non-derivable.
  
  <p align="center">
-<img src="figures/system.png"  width="800"/>
+<img src="figures/system.png" />
 </p>
  
 Thus, our method aims to discover an unknown symbolic model where the discovered model should fit a collection of data points, be derivable from (or close to) a background theory, have low complexity, and have bounded prediction error. The inputs to the system are 4-tuples that include background knowledge, data, a hypothesis class, and a set of modeler preferences (e.g. error bounds on accuracy). We demonstrated that the method can discover governing laws from a few data points, and that logical reasoning can be used to distinguish between candidate formulas with similar error on the data.
@@ -35,7 +35,7 @@ We demonstrated these concepts for Kepler’s third law of planetary motion, Ein
 Kepler's third law relates the distance between two celestial bodies and their orbital periods. This law can be expressed as an equation that involves the period, distance, masses, and the gravitational constant. The law can be derived using axioms of a background theory that describes the center of mass, distance between bodies, gravitational force, centrifugal force, force balance, and the period definition. Our goal is to recover Kepler's third law from real measurements of pairs of masses, the distance between them, and their orbital period. The Symbolic Regression (SR) module was used to obtain a set of candidate formulas. The quality of these formulas was evaluated using three logic-based measures: pointwise reasoning error, generalization reasoning error, and variable dependence. The results show that AI-Descartes is able to re-discover the original law using the SR module and that it is able to identify the derivable original law in a set of candidates with similar numerical error. 
 
 <p align="center">
-<img src="figures/kepler.gif"  width="400"/>
+<img src="figures/kepler.gif"  width="600"/>
 </p>
 
 ### Relativistic Time Dilation
@@ -47,7 +47,7 @@ We were able to generate a set of candidate expressions with the SR module, iden
 Our system can also help rule out alternative axiom sets, such as one that assumes light behaves like other mechanical objects (Newtonian), and the one that assumes the speed of light to be constant (relativistic). Thus the data is used indirectly to discriminate between axiom systems relevant to the phenomenon under study.
 
 <p align="center">
-<img src="figures/time.gif"  width="400"/>
+<img src="figures/time.gif"  width="600"/>
 </p>
 
 ### Langmuir's Adsorption Equation
@@ -59,7 +59,7 @@ We used two sets of experimental data to illustrate how the SR module can obtain
 We encoded the background theory in a set of axioms which includes the site balance, adsorption rate model, desorption rate model, equilibrium assumption, and mass balance on the loading. Langmuir's equation can be derived from these axioms (with some additional non-negativity constraints). We were able to prove one of the formulas by using existentially quantified variables to represent the constants derived from the data.
 
 <p align="center">
-<img src="figures/langmuir.gif"  width="400"/>
+<img src="figures/lagmuir.gif"  width="500"/>
 </p>
 
 ### Conclusions and Limitations
