@@ -4,11 +4,9 @@ title: AI-Descartes
 
 
 <p align="right">
-[About the authors 👤👤👤 ](authors.md)
-
-[References and Videos 📖📚🎦 ](authors.md)
-
-[Code and Data <img height="30" width="30" src="figures/github.svg" />](https://github.com/IBM/AI-Descartes) 
+<a href="https://ai-descartes.github.io/authors"> About the authors 👤👤👤 </a>
+<a href="https://ai-descartes.github.io/references"> References and Videos 📖📚🎦 </a>
+<a href="https://github.com/IBM/AI-Descartes"> Code and Data <img height="30" width="30" src="figures/github.svg" /> </a>
 </p>
 
 <br clear="left"/>
@@ -21,7 +19,7 @@ Scientists aim to create mathematical models that can accurately describe an obs
 <img src="figures/cycle.png" />
 </p>
  
-### AI-Descartes Method
+### The Method
  
 Our method combines a reasoning system with a novel symbolic regression (SR) algorithm based on mathematical optimization. SR models are typically more interpretable than neural network (NN) models and require less data. Our end-to-end discovery system extracts formulas from data via SR and then furnishes either a formal proof of derivability of the formula from a set of axioms, or a proof of inconsistency. We also provide novel measures that indicate how close a formula is to the derivable one, when the model is provably non-derivable.
  
