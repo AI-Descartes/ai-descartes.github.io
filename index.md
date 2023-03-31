@@ -1,16 +1,17 @@
 ---
 title: AI-Descartes
 ---
-<p align="right">
-[<img align="right"height="30" width="30" src="https://github.com/AI-Descartes/ai-descartes.github.io/blob/main/figures/github.svg" />](https://github.com/IBM/AI-Descartes)
-</p>
+
+[<img align="right" height="40" width="40" src="figures/github.svg" />](https://twitter.com/Cristina__C) 
+
+<br clear="left"/>
 
 
 
 Scientists aim to create mathematical models that can accurately describe an observed phenomenon. There are two common approaches to creating these models: manually creating them based on domain knowledge and fitting them to the data, or using machine learning algorithms to automatically create models from large datasets. However, neither of these approaches is perfect. Finding models from numerical data that are meaningful (consistent with prior knowledge expressed via general logical axioms) is still an open problem. We have developed a method that combines logical reasoning with symbolic regression to enable principled extraction of models of natural phenomena from axiomatic knowledge and experimental data.
 
 <p align="center">
-<img src="figures/cycle.png"  width="400"/>
+<img src="figures/cycle.png"  width="800"/>
 </p>
  
 ### AI-Descartes Method
@@ -18,7 +19,7 @@ Scientists aim to create mathematical models that can accurately describe an obs
 Our method combines a reasoning system with a novel symbolic regression (SR) algorithm based on mathematical optimization. SR models are typically more interpretable than neural network (NN) models and require less data. Our end-to-end discovery system extracts formulas from data via SR and then furnishes either a formal proof of derivability of the formula from a set of axioms, or a proof of inconsistency. We also provide novel measures that indicate how close a formula is to the derivable one, when the model is provably non-derivable.
  
  <p align="center">
-<img src="figures/system.png"  width="400"/>
+<img src="figures/system.png"  width="800"/>
 </p>
  
 Thus, our method aims to discover an unknown symbolic model where the discovered model should fit a collection of data points, be derivable from (or close to) a background theory, have low complexity, and have bounded prediction error. The inputs to the system are 4-tuples that include background knowledge, data, a hypothesis class, and a set of modeler preferences (e.g. error bounds on accuracy). We demonstrated that the method can discover governing laws from a few data points, and that logical reasoning can be used to distinguish between candidate formulas with similar error on the data.
