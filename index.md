@@ -2,14 +2,22 @@
 title: AI-Descartes
 ---
 
-[<img align="right" height="40" width="40" src="figures/github.svg" />](https://twitter.com/Cristina__C) 
+
+<p align="right">
+[About the authors 👤👤👤 ](authors.md)
+
+[References and Videos 📖📚🎦 ](authors.md)
+
+[Code and Data <img height="30" width="30" src="figures/github.svg" />](https://github.com/IBM/AI-Descartes) 
+</p>
 
 <br clear="left"/>
 
+## AI-Descartes overview
 
-<p align="center">
 Scientists aim to create mathematical models that can accurately describe an observed phenomenon. There are two common approaches to creating these models: manually creating them based on domain knowledge and fitting them to the data, or using machine learning algorithms to automatically create models from large datasets. However, neither of these approaches is perfect. Finding models from numerical data that are meaningful (consistent with prior knowledge expressed via general logical axioms) is still an open problem. We have developed a method that combines logical reasoning with symbolic regression to enable principled extraction of models of natural phenomena from axiomatic knowledge and experimental data.
 
+<p align="center">
 <img src="figures/cycle.png" />
 </p>
  
@@ -69,7 +77,6 @@ In conclusion, in our work we combined logical reasoning with symbolic regressio
 
 
 
-## Data and Code
-[<img height="30" width="30" src="figures/github.svg" />](https://github.com/IBM/AI-Descartes) Data and code can be found, freely available, at our GitHub repository.
+
 
 
