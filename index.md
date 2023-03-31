@@ -7,10 +7,9 @@ title: AI-Descartes
 <br clear="left"/>
 
 
-
+<p align="center">
 Scientists aim to create mathematical models that can accurately describe an observed phenomenon. There are two common approaches to creating these models: manually creating them based on domain knowledge and fitting them to the data, or using machine learning algorithms to automatically create models from large datasets. However, neither of these approaches is perfect. Finding models from numerical data that are meaningful (consistent with prior knowledge expressed via general logical axioms) is still an open problem. We have developed a method that combines logical reasoning with symbolic regression to enable principled extraction of models of natural phenomena from axiomatic knowledge and experimental data.
 
-<p align="center">
 <img src="figures/cycle.png" />
 </p>
  
