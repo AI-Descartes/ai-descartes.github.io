@@ -2,6 +2,10 @@
 title: AI-Descartes
 ---
 
+## Blog Post
+
+Take a look at our "Behind the Paper" Blog Post on *Springer Nature Protocols and Methods Community* &rarr; [HERE](https://protocolsmethods.springernature.com)
+
 ## References
 
 Papers:
