@@ -4,7 +4,7 @@ title: AI-Descartes
 
 ## Blog Post
 
-Take a look at our "Behind the Paper" Blog Post on *Springer Nature Protocols and Methods Community* &rarr; [HERE](https://protocolsmethods.springernature.com)
+Take a look at our ["Behind the Paper" Blog Post](https://protocolsmethods.springernature.com/posts/ai-descartes-combining-data-and-theory-for-derivable-scientific-discovery) on *Springer Nature Protocols and Methods Community*
 
 ## References
 
