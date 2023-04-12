@@ -44,7 +44,7 @@ We demonstrated these concepts for Kepler’s third law of planetary motion, Ein
 Kepler's third law relates the distance between two celestial bodies and their orbital periods. This law can be expressed as an equation that involves the period, distance, masses, and the gravitational constant. The law can be derived using axioms of a background theory that describes the center of mass, distance between bodies, gravitational force, centrifugal force, force balance, and the period definition. Our goal is to recover Kepler's third law from real measurements of pairs of masses, the distance between them, and their orbital period. The Symbolic Regression (SR) module was used to obtain a set of candidate formulas. The quality of these formulas was evaluated using three logic-based measures: pointwise reasoning error, generalization reasoning error, and variable dependence. The results show that AI-Descartes is able to re-discover the original law using the SR module and that it is able to identify the derivable original law in a set of candidates with similar numerical error. 
 
 <p align="center">
-<img src="figures/kepler.gif"  width="600"/>
+<img src="figures/kepler.gif"  alt="Icons created by Eucalyp & Freepik - Flaticon.com" width="600"/>
 </p>
 
 ### Relativistic Time Dilation
