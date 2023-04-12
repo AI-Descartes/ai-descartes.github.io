@@ -9,8 +9,8 @@ Take a look at our "Behind the Paper" Blog Post on *Springer Nature Protocols an
 ## References
 
 Papers:
-* [**Combining data and theory for derivable scientific discovery with AI-Descartes**](), C. Cornelio, S. Dash, V. Austel, T. Josephson, J. Goncalves, K. Clarkson, N. Megiddo, B. El Khadir, L. Horesh, Nature Communications, 2023 
-* [**AI-Descartes: Integration of Data and Theory for Accelerated Derivable Symbolic Discovery**](https://arxiv.org/abs/2109.01634), C. Cornelio, S. Dash, V. Austel, T. Josephson, J. Goncalves, K. Clarkson, N. Megiddo, B. El Khadir, L. Horesh, arXiv:2109.01634, 2021 
+* [**Combining data and theory for derivable scientific discovery with AI-Descartes**](https://www.nature.com/articles/s41467-023-37236-y#MOESM1),[PDF](https://rdcu.be/c9IAY) C. Cornelio, S. Dash, V. Austel, T. Josephson, J. Goncalves, K. Clarkson, N. Megiddo, B. El Khadir, L. Horesh, Nature Communications, 2023 
+* [**AI-Descartes: Integration of Data and Theory for Accelerated Derivable Symbolic Discovery**](https://arxiv.org/abs/2109.01634), C. Cornelio, S. Dash, V. Austel, T. Josephson, J. Goncalves, K. Clarkson, N. Megiddo, B. El Khadir, L. Horesh, PrePrint arXiv:2109.01634, 2021 
 * [**Bayesian Experimental Design for Symbolic Discovery**](https://arxiv.org/abs/2211.15860), K. L. Clarkson, C. Cornelio, S. Dash, J. Goncalves, L. Horesh, N. Megiddo, arXiv:2211.15860, 2022
 * [**Symbolic Regression using Mixed-Integer Nonlinear Optimization**](https://arxiv.org/abs/2006.06813), V. Austel, C. Cornelio, S. Dash, J. Goncalves, L. Horesh, T. Josephson, N. Megiddo, 2019, arXiv:2006.06813
 
