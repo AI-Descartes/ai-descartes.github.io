@@ -10,7 +10,7 @@ title: AI-Descartes
  <a href="https://ai-descartes.github.io/references"> References and Videos 📖 📚 🎦 </a>
 </p>
 <p align="right">
- <a href="https://github.com/IBM/AI-Descartes"> Code and Data <img height="30" width="30" src="figures/github.svg" /> </a>
+ <a href="https://github.com/IBM/AI-Descartes"> Code and Data  <img height="30" width="30" src="figures/github.svg" /> </a>
 </p>
 
 <br clear="left"/>
