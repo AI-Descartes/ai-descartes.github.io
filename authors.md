@@ -10,7 +10,7 @@ title: AI-Descartes
 
 * **Vernon Austel:** IBM Research
 
-* **Tyler R. Josephson:** Professor at the University of Maryland, Baltimore County
+* **Tyler R. Josephson:** Assistant Professor at the University of Maryland, Baltimore County
 
 * **Joao Goncalves:** IBM Research
 
