@@ -2,9 +2,35 @@
 title: AI-Descartes
 ---
 
-## Blog Post
+## Blog Posts
 
-Take a look at our ["Behind the Paper" Blog Post](https://protocolsmethods.springernature.com/posts/ai-descartes-combining-data-and-theory-for-derivable-scientific-discovery) on *Springer Nature Protocols and Methods Community*
+* Take a look at our ["Behind the Paper"](https://protocolsmethods.springernature.com/posts/ai-descartes-combining-data-and-theory-for-derivable-scientific-discovery) Blog Post on *Springer Nature Protocols and Methods Community*
+* Blog post ["AI-Descartes: A framework for automated scientific discovery"](https://research.ibm.com/blog/ai-descartes-scientific-discovery) on *IBM-Research* website.
+
+
+## Media coverage
+
+### Radio 
+
+* [Radio interview on the "Quirks and Quarks" program](https://www.cbc.ca/radio/quirks/artificial-intelligence-ai-scientist-1.6811085) on the **CBC Radio Canada** the Canadian public broadcaster.
+* [Radio interview on the "Deutschlandfunk Kultur" program](https://www.deutschlandfunkkultur.de/wissenschaft-ki-hilft-forschenden-theorien-zu-entwickeln-dlf-kultur-92a9503f-100.html) of **Deutschlandradio** the national German public radio broadcaster for culture and science.
+
+### Some articles and Press release
+
+* ["AI-Descartes: A Scientific Renaissance in the World of Artificial Intelligence"](https://scitechdaily.com/ai-descartes-a-scientific-renaissance-in-the-world-of-artificial-intelligence/)
+* ["'AI scientist' brings us a step closer to the age of machine-generated scientific discovery"](https://www.cbc.ca/radio/quirks/artificial-intelligence-ai-scientist-1.6811085)
+* ["A NEW MACHINE-LEARNING TOOL THAT REASONS"](https://www.revyuh.com/news/science-and-research/artificial-intelligence/a-new-machine-learning-tool-that-reasons/)
+* ["AI ‘scientist’ re-discovers scientific equations using data"](https://eandt.theiet.org/content/articles/2023/04/ai-scientist-re-discovers-scientific-equations-using-data/)
+* ["New “AI scientist” combines theory and data to discover scientific equations"](https://www.newswise.com/articles/new-ai-tool-uses-data-and-theory-to-find-scientific-equations)
+
+## Talks & Videos
+
+* Invited talk at the [IBM Neuro-Symbolic AI Workshop](https://ibm.github.io/neuro-symbolic-ai/events/ns-workshop2023/) (2023)
+  * Presentation recording: [Video](https://ibm.ent.box.com/file/1116765562104?s=57d95z19ecw7lr51jgfoc6q29nkeyxif)
+* Invited talk at the [2nd Workshop on Nobel Turing Challenge](https://groups.oist.jp/obu/event/2nd-workshop-nobel-turing-challenge) (2022)
+  * More info on the Nobel Turing Challenge can be found [HERE](https://www.nature.com/articles/s41540-021-00189-3)
+  * Presentation recording: [YouTube video](https://youtu.be/y-v9QWGzZ8E)
+
 
 ## References
 
@@ -23,11 +49,4 @@ Patents:
 * [**Experimental Design for Symbolic Model Discovery**](https://patents.google.com/patent/US20210334432A1/en). L. Horesh, K. Clarkson, C. Cornelio, S. Magliacane, 2020
 
 
-## Talks & Videos
-
-* Invited talk at the [IBM Neuro-Symbolic AI Workshop](https://ibm.github.io/neuro-symbolic-ai/events/ns-workshop2023/) (2023)
-  * Presentation recording: [Video](https://ibm.ent.box.com/file/1116765562104?s=57d95z19ecw7lr51jgfoc6q29nkeyxif)
-* Invited talk at the [2nd Workshop on Nobel Turing Challenge](https://groups.oist.jp/obu/event/2nd-workshop-nobel-turing-challenge) (2022)
-  * More info on the Nobel Turing Challenge can be found [HERE](https://www.nature.com/articles/s41540-021-00189-3)
-  * Presentation recording: [YouTube video](https://youtu.be/y-v9QWGzZ8E)
 
