@@ -27,8 +27,8 @@ title: AI-Descartes
 
 * Invited talk at the [IBM Neuro-Symbolic AI Workshop](https://ibm.github.io/neuro-symbolic-ai/events/ns-workshop2023/) (2023)
   * Presentation recording: [Video](https://ibm.ent.box.com/file/1116765562104?s=57d95z19ecw7lr51jgfoc6q29nkeyxif)
-* Invited talk at the [2nd Workshop on Nobel Turing Challenge](https://groups.oist.jp/obu/event/2nd-workshop-nobel-turing-challenge) (2022)
-  * More info on the Nobel Turing Challenge can be found [HERE](https://www.nature.com/articles/s41540-021-00189-3)
+* Invited talk at the [2nd Workshop on Nobel Turing Challenge](https://www.nobelturingchallenge.org/workshops/2nd-workshop) (2022)
+  * More info on the Nobel Turing Challenge can be found [HERE](https://www.nobelturingchallenge.org/home)
   * Presentation recording: [YouTube video](https://youtu.be/y-v9QWGzZ8E)
 
 
