@@ -15,7 +15,7 @@ title: AI-Descartes
 * [Radio interview on the "Quirks and Quarks" program](https://www.cbc.ca/radio/quirks/artificial-intelligence-ai-scientist-1.6811085) on the **CBC Radio Canada** the Canadian public broadcaster.
 * [Radio interview on the "Deutschlandfunk Kultur" program](https://www.deutschlandfunkkultur.de/wissenschaft-ki-hilft-forschenden-theorien-zu-entwickeln-dlf-kultur-92a9503f-100.html) of **Deutschlandradio** the national German public radio broadcaster for culture and science.
 
-### Some articles and Press release
+### Press release and some articles
 
 * ["AI-Descartes: A Scientific Renaissance in the World of Artificial Intelligence"](https://scitechdaily.com/ai-descartes-a-scientific-renaissance-in-the-world-of-artificial-intelligence/)
 * ["'AI scientist' brings us a step closer to the age of machine-generated scientific discovery"](https://www.cbc.ca/radio/quirks/artificial-intelligence-ai-scientist-1.6811085)
