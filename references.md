@@ -18,6 +18,7 @@ title: AI-Descartes
 ### Press release and some articles
 
 * ["AI-Descartes: A Scientific Renaissance in the World of Artificial Intelligence"](https://scitechdaily.com/ai-descartes-a-scientific-renaissance-in-the-world-of-artificial-intelligence/)
+* ["What does it take to get AI to work like a scientist?"](https://arstechnica.com/science/2023/08/what-does-it-take-to-get-ai-to-work-like-a-scientist/)
 * ["'AI scientist' brings us a step closer to the age of machine-generated scientific discovery"](https://www.cbc.ca/radio/quirks/artificial-intelligence-ai-scientist-1.6811085)
 * ["A NEW MACHINE-LEARNING TOOL THAT REASONS"](https://www.revyuh.com/news/science-and-research/artificial-intelligence/a-new-machine-learning-tool-that-reasons/)
 * ["AI ‘scientist’ re-discovers scientific equations using data"](https://eandt.theiet.org/content/articles/2023/04/ai-scientist-re-discovers-scientific-equations-using-data/)
