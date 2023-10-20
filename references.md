@@ -31,6 +31,8 @@ title: AI-Descartes
 * Invited talk at the [2nd Workshop on Nobel Turing Challenge](https://www.nobelturingchallenge.org/workshops/2nd-workshop) (2022)
   * More info on the Nobel Turing Challenge can be found [HERE](https://www.nobelturingchallenge.org/home)
   * Presentation recording: [YouTube video](https://youtu.be/y-v9QWGzZ8E)
+* Invited talk at [Colloquium PR[AI]RIE](https://prairie-institute.fr/evenement/colloquium-19-october/)(2023)
+  * Slides [HERE](figures/PRAIRE_talk_AI-Descartes.pdf) 
 
 
 ## References
