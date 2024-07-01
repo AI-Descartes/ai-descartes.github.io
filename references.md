@@ -4,7 +4,7 @@ title: AI-Descartes
 
 ## Blog Posts
 
-* Take a look at our ["Behind the Paper"](https://protocolsmethods.springernature.com/posts/ai-descartes-combining-data-and-theory-for-derivable-scientific-discovery) Blog Post on *Springer Nature Protocols and Methods Community*
+* Take a look at our ["Behind the Paper"](https://communities.springernature.com/posts/ai-descartes-combining-data-and-theory-for-derivable-scientific-discovery) Blog Post on *Springer Nature Protocols and Methods Community*
 * Blog post ["AI-Descartes: A framework for automated scientific discovery"](https://research.ibm.com/blog/ai-descartes-scientific-discovery) on *IBM-Research* website.
 
 
